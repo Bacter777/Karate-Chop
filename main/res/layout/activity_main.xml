@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/radial_background"
+    tools:context="com.bacter.karatechop.MainActivity">
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/image_button_liga_e_desliga_processo"
+        android:layout_width="299dp"
+        android:layout_height="316dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="53dp"
+        android:background="@null"
+        android:contentDescription="@string/app_name"
+        android:fitsSystemWindows="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/karate_chop" />
+
+    <TextView
+        android:id="@+id/dev"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/marginTopTextView"
+        android:text="@string/devApp"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/textSizeTextView" />
+</RelativeLayout>
